@@ -1,4 +1,4 @@
-var pdfUrl = "https://vishalkumarmitra786.github.io/myprofile/resume.pdf";
+var pdfUrl = "https://vishalkumarmitra786.github.io/myprofile/docs/Resume.pdf";
 
 var qrcode = new QRCode(document.getElementById("qrcode"), {
     text: pdfUrl,
