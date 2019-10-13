@@ -77,8 +77,9 @@ td {
 
 .award-card {
     position: absolute;
-    bottom: 1rem;
-    left: 2.60rem;
+    bottom: -42px;
+    height: 162px;
+    width: 230px;
 }
 
 .hobby-container-2 {
@@ -168,6 +169,20 @@ td {
     .float-phone:hover {
         color: #FFF;
     }
+
+@media (max-width: 376px) {
+    .award-container h3 {
+        font-size: 1.5rem;
+    }
+
+    .award-card {
+        position: absolute;
+        bottom: -42px;
+        right: -10px;
+        height: 162px;
+        width: 230px;
+    }
+}
 
 @media (max-width: 768px) {
     .award-container {
