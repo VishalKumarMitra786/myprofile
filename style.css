@@ -1,0 +1,192 @@
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #046ECC;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #046ECC;
+    }
+
+body {
+    color: #046ECC;
+}
+
+.main-container {
+    height: 100%;
+    /*width: 100%;*/
+    max-width: 1120px;
+}
+
+.side-container {
+    display: none;
+}
+
+aside {
+    display: block;
+    margin-top: 3rem;
+    max-width: 415px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 415px;
+}
+
+.container {
+    border: 1px solid black;
+    min-height: 100%;
+}
+
+.display-pic {
+    height: auto;
+    width: 100%;
+}
+
+.display-logo {
+    /*padding: 1.5rem;*/
+}
+
+.text-underline {
+    text-decoration: underline !important;
+}
+
+td {
+    color: #046ECC;
+}
+
+.education-card {
+}
+
+.award-bg-color {
+    background-color: #f4f9fa;
+}
+
+.award-container {
+    margin-left: 3rem;
+}
+
+.award-card {
+    position: absolute;
+    bottom: 1rem;
+    left: 2.60rem;
+}
+
+.hobby-container-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hobby-img {
+    max-height: 310px;
+}
+
+.hobby-img-sm {
+    max-height: 203px;
+}
+
+.sports-img {
+    max-height: 187px;
+}
+
+.contact-mob-no {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.link-nav {
+    font-size: 2rem;
+}
+
+#qrcode, #qrcode2 {
+    display: flex;
+    justify-content: center;
+}
+
+    #qrcode img {
+        border: 2px solid black;
+        padding: 0.5rem;
+    }
+
+    #qrcode2 img {
+        border: 2px solid black;
+        padding: 0.5rem;
+    }
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 50px;
+    left: 50px;
+    font-size: 2rem;
+    background-color: #046ECC;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+    .float i {
+        margin-top: 15px;
+    }
+
+    .float:hover {
+        color: #FFF;
+    }
+
+
+.float-phone {
+    position: fixed;
+    padding: 0.5rem;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    bottom: 50px;
+    right: 30rem;
+    font-size: 2rem;
+    background-color: #046ECC;
+    color: #FFF;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+    .float-phone i {
+        margin-top: 15px;
+    }
+
+    .float-phone:hover {
+        color: #FFF;
+    }
+
+@media (max-width: 768px) {
+    .award-container {
+        margin-left: 0.5rem;
+    }
+
+    .float-phone {
+        right: 3rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1025px) {
+    aside {
+        /*margin-right: -415px;*/
+        display: none;
+    }
+
+    .side-container {
+        display: block;
+    }
+}
